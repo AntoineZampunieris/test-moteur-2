@@ -36,11 +36,11 @@ void loop()
     delay(2);
   }
 
-  for (int speed = 400; speed >= 0; speed--)
+  /*for (int speed = 400; speed >= 0; speed--)
   {
     motors.setM1Speed(speed);
     delay(2);
-  }
+  }*/
   
   // run M1 motor with negative speed
   

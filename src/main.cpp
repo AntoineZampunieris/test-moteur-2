@@ -84,11 +84,12 @@ void loop()
     delay(2);
   }
   
-  for (int speed = -400; speed <= 0; speed++)
+  /*for (int speed = -400; speed <= 0; speed++)
   {
     motors.setM2Speed(speed);
     delay(2);
-  }
+  }*/
+  
   
   delay(500);
 }
